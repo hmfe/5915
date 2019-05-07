@@ -1,3 +1,6 @@
+# TO RUN #
+Start by running `yarn && yarn start`
+
 # WORK TASK #
 
 **Please read this document thoroughly** and plan your work accordingly.
