@@ -6,19 +6,34 @@
 
 .clearHistory, .clearItem {
   border: 0;
-  text-decoration: underline;
   background: transparent;
+  cursor: pointer;
 }
 
-.clearHistory:hover, .clearHistory:focus, .clearItem:hover, .clearItem:focus {
+.clearHistory:hover, .clearHistory:focus {
   font-weight: bold
 }
 
-.list {
-  width: 100vw;
+.historyItems {
+  width: 100%;
+  padding: 10px;
 }
 
-.list li {
+.historyItem:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.historyItem {
   display: flex;
-  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  color: #A5A5A5;
+  font-size: 12px;
+}
+
+.historyItem-name {
+  flex-grow: 1;
+  color: black;
+  font-size: 16px;
 }
