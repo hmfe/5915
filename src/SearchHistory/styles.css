@@ -1,0 +1,24 @@
+.searchHistory {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.clearHistory, .clearItem {
+  border: 0;
+  text-decoration: underline;
+  background: transparent;
+}
+
+.clearHistory:hover, .clearHistory:focus, .clearItem:hover, .clearItem:focus {
+  font-weight: bold
+}
+
+.list {
+  width: 100vw;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+}

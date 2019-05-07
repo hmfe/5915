@@ -1,0 +1,18 @@
+.searchForm {
+  display: flex;
+  position: relative;
+  border: 1px solid gray;
+  background-color: white;
+}
+.searchInput {
+  padding: 10px 0px 10px 20px;
+  border: 0;
+  width: 100%;
+}
+
+.clearButton {
+  border: none;
+  cursor: pointer;
+  
+  background-color: transparent;
+}
